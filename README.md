@@ -35,10 +35,10 @@ Here is the YouTube link to an illustration of the project as well as a small in
 Description of each file:
 
 client.py
-It initiates the socket connection to server
+It initiates the socket connection to the server
 
 server.py
-It listens for communication on the localhost on port 12345.
+It listens for communication on the local host on port 12345.
 
 pggen.py
 Used for generating the large prime number and its primitive modulo for DH.py

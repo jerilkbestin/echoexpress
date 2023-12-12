@@ -25,8 +25,9 @@ struct
 5. Run "python3 server.py" on one.
 6. Run "python3 client.py" on the other.
 7. Please run them in the sequence mentioned.
-8. You can see the shared secret is already shown.
-9. Please type the message on the client end.
-10. You will see the message received on the server end.
-11. To exit, press Enter without typing any message on the client end.
+9. You can see the shared secret is already shown.
+10. Please type the message on the client end.
+11. You will see the message received on the server end.
+12. To exit, press Enter without typing any message on the client end.
 
+Here is the youtube link to an illustration of the project as well as a small introduction to TLS: https://www.youtube.com/watch?v=v-UUr_g9KSs

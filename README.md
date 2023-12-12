@@ -34,26 +34,25 @@ Here is the YouTube link to an illustration of the project as well as a small in
 
 Description of each file:
 
-client.py
+client.py:
 It initiates the socket connection to the server
 
-server.py
+server.py:
 It listens for communication on the local host on port 12345.
 
-pggen.py
+pggen.py:
 Used for generating the large prime number and its primitive modulo for DH.py
 
-MD5.py
+MD5.py:
 Following constants are used as the initial hash values: 0x67452301, 0xEFCDAB89, 0x98BADCFE, 0x10325476 (four 32 bit values)
 The message is padded to form 512 bits.
 The message is divided into 16 32-bit blocks. Each of the 32 bits is further divided into four parts on which bitwise XOR, AND, OR, and bit rotations are performed along with the initial hash values.
 It is then updated through the 64 rounds.
 It produces a hash value after concatenating the four values.
 
-five_round_feistel_with_RC4.py
+five_round_feistel_with_RC4.py:
 For the RC4, part we have a function for the s-box and encryption function. The key is provided from the pre-shared secret.
 The key and parts of the message are given to RC4 for encryption through the five-round Feistel network.
 
-DH.py
+DH.py:
 For DH, I have used the large prime number 621113 and its primitive root modulo 1000. This was calculated based on a code I have submitted “pggen.py”.
-![image](https://github.com/jerilkbestin/echoexpress/assets/38150358/39ff9772-d63b-4266-b2e4-3bbb393dcc78)
